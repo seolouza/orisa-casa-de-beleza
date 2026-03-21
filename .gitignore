@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Original images with long names (copies exist in img/)
+Nosso doce de leite*
+Penteado realizado*
+Que saudade*
+Retoque de*
+〰️*
