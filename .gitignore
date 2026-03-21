@@ -8,9 +8,5 @@ desktop.ini
 *.swp
 *.swo
 
-# Original images with long names (copies exist in img/)
-Nosso doce de leite*
-Penteado realizado*
-Que saudade*
-Retoque de*
-〰️*
+# Vercel
+.vercel
