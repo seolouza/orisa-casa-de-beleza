@@ -1,6 +1,6 @@
 /* ===========================
    ORISA CASA DE BELEZA
-   Paleta: Verde + Rosa
+   Paleta: Verde + Branco
    =========================== */
 
 /* ---------- CSS Variables ---------- */
@@ -13,17 +13,17 @@
     --green-pale: #dce5dc;
     --green-bg: #eef2ee;
 
-    /* Pinks */
-    --pink-main: #d4728c;
-    --pink-dark: #b85a74;
-    --pink-medium: #e899ae;
-    --pink-light: #ffe5f0;
-    --pink-pale: #ffe5f0;
+    /* Greens (accent) */
+    --pink-main: #4a725b;
+    --pink-dark: #4c6556;
+    --pink-medium: #637468;
+    --pink-light: #dce5dc;
+    --pink-pale: #dce5dc;
 
     /* Neutrals */
     --white: #FFFFFF;
-    --off-white: #f4eeee;
-    --gray-light: #f4eeee;
+    --off-white: #f4f8f4;
+    --gray-light: #f4f8f4;
     --gray: #7f8d82;
     --gray-dark: #637468;
     --text-dark: #2c3e33;
@@ -178,7 +178,7 @@ h1, h2, h3, h4 {
 }
 
 .navbar.scrolled {
-    background: rgba(212, 114, 140, 0.92);
+    background: rgba(74, 114, 91, 0.92);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.12);
     height: 70px;
@@ -305,7 +305,7 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #ffe5f0 0%, #f5c6d6 30%, #e8a3b8 60%, #d4728c 100%);
+    background: linear-gradient(135deg, #dce5dc 0%, #b4bdb4 30%, #637468 60%, #4a725b 100%);
     overflow: hidden;
 }
 
@@ -697,7 +697,7 @@ h1, h2, h3, h4 {
    CTA BANNER
    ======================================== */
 .cta-banner {
-    background: linear-gradient(135deg, #d4728c 0%, #b85a74 40%, #4a725b 100%);
+    background: linear-gradient(135deg, #4a725b 0%, #4c6556 40%, #637468 100%);
     padding: 80px 0;
     text-align: center;
     position: relative;
