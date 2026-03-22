@@ -13,13 +13,6 @@
     --green-pale: #dce5dc;
     --green-bg: #eef2ee;
 
-    /* Greens (accent) */
-    --pink-main: #4a725b;
-    --pink-dark: #4c6556;
-    --pink-medium: #637468;
-    --pink-light: #dce5dc;
-    --pink-pale: #dce5dc;
-
     /* Neutrals */
     --white: #FFFFFF;
     --off-white: #f4f8f4;
@@ -93,7 +86,7 @@ h1, h2, h3, h4 {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: var(--pink-main);
+    color: var(--green-main);
     margin-bottom: 12px;
 }
 
@@ -106,7 +99,7 @@ h1, h2, h3, h4 {
 .title-divider {
     width: 60px;
     height: 4px;
-    background: linear-gradient(90deg, var(--green-medium), var(--pink-main));
+    background: linear-gradient(90deg, var(--green-medium), var(--green-main));
     margin: 0 auto 20px;
     border-radius: 2px;
 }
@@ -220,7 +213,7 @@ h1, h2, h3, h4 {
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: var(--pink-light);
+    color: var(--green-pale);
 }
 
 .nav-menu {
@@ -453,7 +446,7 @@ h1, h2, h3, h4 {
 
 .sobre-img-placeholder {
     aspect-ratio: 4/5;
-    background: linear-gradient(135deg, var(--green-pale) 0%, var(--pink-pale) 100%);
+    background: linear-gradient(135deg, var(--green-pale) 0%, var(--green-pale) 100%);
     border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
@@ -465,7 +458,7 @@ h1, h2, h3, h4 {
 
 .sobre-img-placeholder i {
     font-size: 64px;
-    color: var(--pink-main);
+    color: var(--green-main);
 }
 
 .sobre-img-placeholder p {
@@ -579,7 +572,7 @@ h1, h2, h3, h4 {
 }
 
 .carousel-insta-link:hover {
-    background: var(--pink-main);
+    background: var(--green-main);
 }
 
 .carousel-insta-link i {
@@ -619,12 +612,12 @@ h1, h2, h3, h4 {
 }
 
 .sobre-feature:hover {
-    background: var(--pink-pale);
+    background: var(--green-pale);
 }
 
 .sobre-feature i {
     font-size: 20px;
-    color: var(--pink-main);
+    color: var(--green-main);
 }
 
 /* ========================================
@@ -652,13 +645,13 @@ h1, h2, h3, h4 {
 .servico-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
-    border-color: var(--pink-light);
+    border-color: var(--green-pale);
 }
 
 .servico-icon {
     width: 80px;
     height: 80px;
-    background: linear-gradient(135deg, var(--green-pale), var(--pink-pale));
+    background: linear-gradient(135deg, var(--green-pale), var(--green-pale));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -668,7 +661,7 @@ h1, h2, h3, h4 {
 }
 
 .servico-card:hover .servico-icon {
-    background: linear-gradient(135deg, var(--pink-main), var(--green-medium));
+    background: linear-gradient(135deg, var(--green-main), var(--green-medium));
 }
 
 .servico-icon i {
@@ -756,7 +749,7 @@ h1, h2, h3, h4 {
 .depoimento-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
-    border-color: var(--pink-light);
+    border-color: var(--green-pale);
 }
 
 .depoimento-stars {
@@ -784,7 +777,7 @@ h1, h2, h3, h4 {
 .depoimento-avatar {
     width: 48px;
     height: 48px;
-    background: linear-gradient(135deg, var(--green-medium), var(--pink-main));
+    background: linear-gradient(135deg, var(--green-medium), var(--green-main));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -840,7 +833,7 @@ h1, h2, h3, h4 {
 
 .contato-item i {
     font-size: 22px;
-    color: var(--pink-main);
+    color: var(--green-main);
     margin-top: 4px;
     min-width: 30px;
     text-align: center;
@@ -862,12 +855,12 @@ h1, h2, h3, h4 {
 }
 
 .contato-item a {
-    color: var(--pink-main);
+    color: var(--green-main);
     font-weight: 500;
 }
 
 .contato-item a:hover {
-    color: var(--pink-dark);
+    color: var(--green-dark);
 }
 
 .contato-social {
@@ -890,7 +883,7 @@ h1, h2, h3, h4 {
 }
 
 .contato-social a:hover {
-    background: var(--pink-main);
+    background: var(--green-main);
     transform: translateY(-2px);
 }
 
@@ -957,7 +950,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-social a:hover {
-    background: var(--pink-main);
+    background: var(--green-main);
     transform: translateY(-2px);
 }
 
@@ -983,7 +976,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-links ul li a:hover {
-    color: var(--pink-light);
+    color: var(--green-pale);
     padding-left: 4px;
 }
 
@@ -1000,11 +993,11 @@ h1, h2, h3, h4 {
 }
 
 .footer-contact a:hover {
-    color: var(--pink-light);
+    color: var(--green-pale);
 }
 
 .footer-contact i {
-    color: var(--pink-main);
+    color: var(--green-main);
     min-width: 16px;
     margin-top: 3px;
 }
