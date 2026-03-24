@@ -298,7 +298,7 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, #dce5dc 0%, #b4bdb4 30%, #637468 60%, #4a725b 100%);
+    background: linear-gradient(135deg, #eef2ee 0%, #dce5dc 30%, #b4bdb4 60%, #8faa96 100%);
     overflow: hidden;
 }
 
