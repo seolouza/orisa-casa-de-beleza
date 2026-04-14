@@ -727,6 +727,156 @@ h1, h2, h3, h4 {
 }
 
 /* ========================================
+   PRODUTOS
+   ======================================== */
+.produtos {
+    background: var(--off-white);
+}
+
+.produtos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.produto-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    padding: 32px;
+}
+
+.produto-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+    border-color: var(--green-pale);
+}
+
+.produto-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--green-bg);
+    border-radius: 12px;
+    padding: 28px 32px;
+    height: 140px;
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.produto-img img {
+    max-width: 180px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Dhönna — white bg + larger logo */
+.produto-card:nth-child(2) .produto-img {
+    background: var(--white);
+    border: 1px solid #eee;
+}
+
+.produto-card:nth-child(2) .produto-img img {
+    max-width: 320px;
+    max-height: 140px;
+}
+
+/* Phyto Ativo logo is very light — needs darker bg */
+.produto-card:nth-child(4) .produto-img {
+    background: var(--green-dark);
+}
+
+.produto-info h4 {
+    font-size: 24px;
+    color: var(--green-dark);
+    margin-bottom: 8px;
+}
+
+.produto-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 14px;
+    background: var(--green-bg);
+    color: var(--green-main);
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-bottom: 16px;
+}
+
+.produto-info p {
+    font-size: 15px;
+    color: var(--text-body);
+    line-height: 1.8;
+    margin-bottom: 16px;
+}
+
+.produto-destaques {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.produto-destaques li {
+    font-size: 14px;
+    color: var(--gray-dark);
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.produto-destaques li i {
+    color: var(--green-main);
+    font-size: 12px;
+}
+
+.btn-produto {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    background: transparent;
+    color: var(--green-dark);
+    border: 2px solid var(--green-dark);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.btn-produto:hover {
+    background: var(--green-dark);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.produtos-cta {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, var(--green-pale), var(--green-bg));
+    border-radius: var(--border-radius);
+}
+
+.produtos-cta p {
+    font-size: 15px;
+    color: var(--text-body);
+    margin-bottom: 20px;
+}
+
+.produtos-cta p i {
+    color: var(--green-main);
+    margin-right: 6px;
+}
+
+/* ========================================
    DEPOIMENTOS
    ======================================== */
 .depoimentos {
@@ -1081,6 +1231,20 @@ h1, h2, h3, h4 {
         --nav-height: 70px;
     }
 
+    /* Produtos */
+    .produtos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .produto-card {
+        padding: 24px;
+    }
+
+    .produto-img {
+        height: 120px;
+        padding: 20px 24px;
+    }
+
     .hamburger {
         display: flex;
     }
@@ -1187,6 +1351,10 @@ h1, h2, h3, h4 {
 
 /* Small Mobile */
 @media (max-width: 480px) {
+    .produto-info h4 {
+        font-size: 20px;
+    }
+
     .hero-title {
         font-size: 2.8rem;
     }
