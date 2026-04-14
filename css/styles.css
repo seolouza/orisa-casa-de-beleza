@@ -192,13 +192,14 @@ h1, h2, h3, h4 {
 
 .nav-logo img {
     height: 55px;
-    width: auto;
+    width: 55px;
+    object-fit: contain;
     transition: var(--transition);
-    filter: brightness(0) invert(1);
 }
 
 .navbar.scrolled .nav-logo img {
     height: 45px;
+    width: 45px;
 }
 
 .logo-orisa {
@@ -919,9 +920,9 @@ h1, h2, h3, h4 {
 }
 
 .footer-logo img {
-    height: 50px;
-    width: auto;
-    filter: brightness(0) invert(1);
+    width: 180px;
+    max-width: 100%;
+    height: auto;
     opacity: 0.85;
 }
 
@@ -997,7 +998,7 @@ h1, h2, h3, h4 {
 }
 
 .footer-contact i {
-    color: var(--green-main);
+    color: var(--white);
     min-width: 16px;
     margin-top: 3px;
 }
